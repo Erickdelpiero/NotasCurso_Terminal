@@ -1,0 +1,8 @@
+Operadores de control para ejecutar vartios comandos en una sola línea de la terminal, de manera síncorna o asíncrona
+
+
+Comandos ejemplo:
+ls; mkdir Carpeta; cal				-->	El ";" hace que se ejecute en forma secuencial y síncrona.
+ls & date & cal					-->	Ejecución en forma asíncrona, usa un procesador distinto para cada comando.
+mkdir Test && cd  test				-->	Condicional, solo si se ejecuta correctamente el primer comando, recién se ejecuta el segunda. (and lógico)
+cd carpeta || touch archivo.txt || echo "Texto"	-->	Or lógico, sigue siendo síncrono.

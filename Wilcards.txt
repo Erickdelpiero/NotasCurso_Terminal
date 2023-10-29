@@ -1,0 +1,11 @@
+Wilcards para búsquedad de archivos
+
+
+Comandos ejemplos
+
+ls *.txt		Busca y muestra únicamente los archivos que terminan en ".txt"
+ls *datos		Busca y muestra únicamente archivos o carpetas que temrinanan en "datos"
+ls datos?		Busca y muestra únicamente archivos o carpetas que inician con "datos" y solo tienen un valor más "?"
+ls [ad]*		Busca y muestra únicamente archivos o carpetas que inician con "a" o "d"
+ls [[:upper:]]*		Busca y muestra únicamente archivos o carpetas que inician con la primera letra mayúscula (1° y 2° Nivel)
+ls -d [[:upper:]]*	Busca y muestra únicamente archivos o carpetas que inician con la primera letra mayúscula (Solo 1° Nivel)

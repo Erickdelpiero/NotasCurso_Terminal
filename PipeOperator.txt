@@ -1,0 +1,6 @@
+Pipe Operator se usa para una secuncia de comandos tomando como entradas la salida de otro comando con |
+
+
+Comandos ejemplo
+ls -lh Pictures | sort | tee Pictures.txt | less
+cowsay "Hola" | lolcat

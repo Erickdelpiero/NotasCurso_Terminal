@@ -1,0 +1,23 @@
+Comandos básicos de la terminal
+
+
+Comando		Descripción									Ejemplo de uso
+
+ls:		Visualizar qué archivos y carpetas existen en la ubicación actual.		(ls)
+pwd:		Conocer la ruta actual.								(pwd)
+cd:		Cambiar directorio, movernos a una carpeta más abajo o más arriba con (..).	(cd NombreCarpeta, cd ..)
+touch:		Crear archivos .txt, .md, .py, etc.						(touch NombreArchivo)
+mkdir:		Crear carpeta.									(mkdir NombreCarpetaACrear)
+less:		Visualizar archivos.								(less Archivo)
+rm -i:		Eliminar de forma iteractiva.							(rm -i ArchivoOCarpeta)
+rm -if:		Eliminar de forma iteractiva y de manera forzada.				(rm -if ArchivoOCarpeta)
+wich:		Busca un programa en el Path.							(wich Programa)
+head:		Visualizar solo la cabecera (10 primeras líneas) de un archivo.			(head Archivo)
+echo:		Muestra algo (texto) en la terminal.						(echo "texto")
+cat:		Concatenar archivos.								(cat Archivo1 Archivo2)
+tee:		Generar archivo.								(tee Archivo)
+cal:		Muestra un calendario.								(cal)
+chmod:		Cambiar oermisos de los usuarios en hexadecimal.				(chmod xxx) (x=número hexadecimal)
+whoami:		Conocer qué usuario soy.							(whoami)
+su roat:	Cambiar usuario.								(su roat Usuario)
+passwd:		Cambiar contraseña.								(passwd Contraseña)

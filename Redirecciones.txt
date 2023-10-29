@@ -1,0 +1,25 @@
+Redirecciones de entrada, salida o error
+
+
+
+Flujo de trabajo:
+Teclado->Terminal->Shell(stdin:0->comando->(stadout:1||stderror2))->Pantalla
+
+stdin: Ingreso a la shell con valor prederminado de 0.
+stdout; Salida cuando el comando se ejecuta con valor prederminado de 1.
+stderror: Salida cuando el comando se ejecuta y sucede algún error, con valor prederminado de 2.
+
+
+
+Comandos
+
+ls Carpeta > NuevoArchivo	-->	Crea un NuevoArchivo o sobreescribe el resultado del comando.
+ls Carpeta: muestra todos los elementos de Carpeta, por ende toda la lista que debería mostrar termina guardando en NuevoArchivo.
+ls Carpeta >> NuevoArchivo	-->	Crea un NuevoArchivo o concatena el resultado del comando.
+
+ls archivo 2> error.txt		-->	Crea error.txt, porque el comando (la archivo) dará algún error
+ls archivo 2>>error.txt		-->	Similar pero concatena, no sobreescribe.
+
+ls archivo > output.txr	2>&1	-->	Cuando no sabemos si el resultado del comando ejemplo (la archivo) estará bien o mal.
+
+cat < error.txt			-->	Usando el stdin
